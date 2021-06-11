@@ -1,12 +1,15 @@
 // COLORS
 $bg: #14131A;
+$dark-red:#8D0019;
 
 // STLYE
 
 body {
-    background: $bg;
     color: #fff;
     font-family: 'Roboto', sans-serif;
+}
+.blood_bg {
+    background: url(../img/blood.png) no-repeat top right, $bg url(../img/main-bg.jpg) no-repeat center / 100%;
 }
 .container {
     max-width: 1140px;
@@ -59,5 +62,38 @@ header {
             line-height: 140%;
             max-width: 423px;
         }
+        button {
+            padding: 15px 30px;
+            border: none;
+            background: #efe8f4;
+            border-radius: 5px;
+            margin-top: 70px;
+            margin-right: 50px;
+            color: $dark-red;
+        }
+        button,a {
+            text-decoration: none;
+            img {
+                display: inline-block;
+                vertical-align: middle;
+                margin-right: 10px;
+            }
+            span {
+                font-size: 16px;
+                display: inline-block;
+                margin: 0;
+                vertical-align: middle;
+            }
+        }
+        .btn {
+            &-premiere {
+                color: #fff;
+            }
+        }
     }
+}
+.venom {
+    position: absolute;
+    top:0;
+    right: 0;
 }

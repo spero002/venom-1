@@ -1,7 +1,10 @@
 body {
-  background: #14131A;
   color: #fff;
   font-family: 'Roboto', sans-serif;
+}
+
+.blood_bg {
+  background: url(../img/blood.png) no-repeat top right, #14131A url(../img/main-bg.jpg) no-repeat center/100%;
 }
 
 .container {
@@ -59,5 +62,42 @@ header nav ul li a:hover {
   font-size: 16px;
   line-height: 140%;
   max-width: 423px;
+}
+
+.hero_text button {
+  padding: 15px 30px;
+  border: none;
+  background: #efe8f4;
+  border-radius: 5px;
+  margin-top: 70px;
+  margin-right: 50px;
+  color: #8D0019;
+}
+
+.hero_text button, .hero_text a {
+  text-decoration: none;
+}
+
+.hero_text button img, .hero_text a img {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+.hero_text button span, .hero_text a span {
+  font-size: 16px;
+  display: inline-block;
+  margin: 0;
+  vertical-align: middle;
+}
+
+.hero_text .btn-premiere {
+  color: #fff;
+}
+
+.venom {
+  position: absolute;
+  top: 0;
+  right: 0;
 }
 /*# sourceMappingURL=style.css.map */
